@@ -1,0 +1,63 @@
+describir
+- descripcion funcional del producto que resuelve la problematica en estudio
+- que es el producto final funcional del programar
+- listar los modulos que forma parte del alcance funcional
+
+* descripcion tecnica del producto que resuelve la problematica en estudio.
+
+- como se va a desarrollar tecnicamente
+
+Indicar si la solucion sera N Capas u orientada a Servicios
+
+inicar cual es el patron de dicse;o a utilizar por la solucion.
+
+indicar donde va estar hospedado las capas o servicios de la solucion
+
+cuales herramientas o lenguajes de programacion utilizara para el desarrollo de cada una de las capas o servicios de la solucion
+
+motor de base dedatos a desarrollar
+
+indicar si la solucion va a tener interfaces y cuales seran (directorios activos del patrocinar, consumo de bakends, consumo de APIs para su atutentificacion)
+
+indicar si la solucion tiene necesidades tencicas relacionadas a la norma iso 25010
+
+para el evaluador debe tener una structura tecnica y losgica en dee se defina
+tipo de solucion
+capas de la solcuion o servicios donde va a estar hospedada cada una de las capas 
+donde se va a publicar 
+escalabilidad
+eficiencia
+interoperabilidad
+usabilidad
+
+especificar
+si tiene que apegar a glun libro de marca o leneara a alguna forma operar roles o perfiles del sistema
+detallar la arquitectura del sistema. en caso de ser una aplicacion movil detallar i es nativa, hibrida y hasta donde se va lelgar (publicacion -  stage etc)
+
+
+----------------------------------------------------------------------------------
+==================================================================================
+----------------------------------------------------------------------------------
+*
+la descripcion tecnica debe tener al menos: 
+NOMBRE DEL PRODUCTO
+LENGUAJE O ARQUITECTURA A UTILIZAR
+DETALLES DEL PRODUCTO A DESARROLLAR 
+caracteristicas mas relevante
+hacia quien o que proceso dse dirige el producto de software
+cual es el componente innovador
+realmente el producto propuesto va solventar el problema descrito?
+
+demuestra la persona estudiante conocimiento del tema, problema a resolver y solucion propuesta 
+es coherente con lo que se esta presentando
+es factible la elaboracion del proyecto dentro del alcance de la carrera y tiempo establecid,
+la complejidad del mismo concuerda con lo esperado por la carrera
+la solcuion propuesta se basa en revisiones de trabajos similares o tendencias den el mercado?
+ademas el formulario 01 debe tener todas las secciones completas, claras, que expliquen el contexto del problema y el alcance del problema  resolver y lo dinciadao como estructura para el desarrollo de la solucion
+seah coherentes con el proyecto tecnicamente factible y exista un buen uso del fundamento teorico y permita valorar las competencias del perfil de la salida del bachillerat. se presenta una re
+
+
+
+
+
+
