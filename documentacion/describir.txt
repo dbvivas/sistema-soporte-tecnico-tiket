@@ -1,38 +1,141 @@
 describir
 - descripcion funcional del producto que resuelve la problematica en estudio
+aplicacion web tipo crud para llevar un historial de todos los proceso de mantenimiento y repacion de equipos informaticos (computadoras) realizados a las distintas areas o departamentos de la alcaldia
+
+
 - que es el producto final funcional del programar
+aplicacion web (no es una pagina web, no es un sitio web) es una aplicacion web
+
+
 - listar los modulos que forma parte del alcance funcional
+login
+registro
+usuarios
+tickets
+procesos
+bitacora (historial)
+
+
 
 * descripcion tecnica del producto que resuelve la problematica en estudio.
+NOMBRE DEL PRODUCTO . Sys-Ti-Al  Sistema de Tiket Alcaldia
+LENGUAJE O ARQUITECTURA A UTILIZAR: PHP, arquitectura Servicios (rest)
+
+DETALLES DEL PRODUCTO A DESARROLLAR 
+
+caracteristicas mas relevante: 
+sistema 24/7 alojado en la nube
+conectado a base de datos
+implementacion de seguridad por login
+sistema dinamico, preciso y amigable
+
+hacia quien o que proceso dse dirige el producto de software
+funcionarios de las distintas areas o departamentos de la alcaldia
+
+cual es el componente innovador
+software realizado en honduras de forma local
+
+realmente el producto propuesto va solventar el problema descrito?
+si, el sistema podra solventar el principal requerimientos del cliente es poder monitorear y salva guardar
+la informacion historico de los distintos mantenimientos y soportes brindados por el area tecnica de la institucion
+
+
 
 - como se va a desarrollar tecnicamente
 
+obtener mediante una convesacion previa todos los requerimientos del clientes, tomar apuntes, hacer consultas pertinentes para evitar confusiones o supuestos, definir la cantidad de procesos que se necesitan para alcanzar a resolver las distintas necesidades del cliente, estipular un diagrama de trabajo modular (mapa de trabajo) y establecer un cronograma detallado con las distintas fases del proyecto a realizar
+
+se dise;ara una base de datos segun los requerimientos del cliente para ello escucharemos las necesidades indentificaremos las entidades principales, sus atributos y definiremos el tipo de dato correcto para cada uno ademas aplicaremos conceptos de normalizacion para un correcto dise;o y arquitectura de la base de datos
+
+preparar el enterno de trabajo utilizaremos mediante un equipo personal
+la instalacion de todos los software pertinentes para el desarrollo
+
+organizar el arbol de carpeta que servira como patron o guia para todo el proyecto
+
+- crear la base de datos
+- crar archivos que permiten evaluar y revisar la comunicacion a la base de datos 
+- construir la estructura principal del proyecto
+- definir los directorios principales Modelo, Vista, Controlador 
+
+ejecutar pruebas 
+realizar consultas, procedimientos almacenados,
+aplicar normalizacion en los accesos a la base de datos para evitar inyeccion sql
+aplicar variables de sessiones (no cookies) para evitar que un usuario ingresa sino se comprueba primeramente su inicio de sesion
+
+
 Indicar si la solucion sera N Capas u orientada a Servicios
+R = Servicos . tipo API REST procesos basicos que todo CRUD debe ser capaz de ejecutar
 
 inicar cual es el patron de dicse;o a utilizar por la solucion.
+Modelo Vista Controlador MVC
+
 
 indicar donde va estar hospedado las capas o servicios de la solucion
+hospedado en el hosting de la alcaldia
+
 
 cuales herramientas o lenguajes de programacion utilizara para el desarrollo de cada una de las capas o servicios de la solucion
 
+herramientas
+visual studio code
+sublimetext
+postman
+xampp
+Cpanel
+
+lenguaje de programacion
+php
+javascript
+
+librerias
+jquery
+ajax
+
+gestor de base de datos
+Maria DB ... MySQL
+
+
+
+
 motor de base dedatos a desarrollar
+Maria DB ... Mysql
+
+
 
 indicar si la solucion va a tener interfaces y cuales seran (directorios activos del patrocinar, consumo de bakends, consumo de APIs para su atutentificacion)
+
+la alcaldia no solicito consumir recursos internos 
+al contrario solicito resguardar la informacion porque no tienen un contenedor como el que se esta buscando para este caso por ende no nos conectaremos a niguna api sino que nostros podremos crear una api para que consuma toda la iformacion respaldada mediante nuestro sistema si el cliente asi lo desea
+
+
+
 
 indicar si la solucion tiene necesidades tencicas relacionadas a la norma iso 25010
 
 para el evaluador debe tener una structura tecnica y losgica en dee se defina
-tipo de solucion
+
+tipo de solucion: servicios web
+
 capas de la solcuion o servicios donde va a estar hospedada cada una de las capas 
-donde se va a publicar 
-escalabilidad
-eficiencia
-interoperabilidad
-usabilidad
+Modelo, Vista Controlador
+
+donde se va a publicar , hosting de la alcaldia
+
+escalabilidad: si
+
+eficiencia: si
+
+interoperabilidad: si
+
+usabilidad: si, amigable e intuitiva
+
 
 especificar
 si tiene que apegar a glun libro de marca o leneara a alguna forma operar roles o perfiles del sistema
 detallar la arquitectura del sistema. en caso de ser una aplicacion movil detallar i es nativa, hibrida y hasta donde se va lelgar (publicacion -  stage etc)
+
+por el momento se utilizara unicamente los colores y logotipos que la alcaldia nos brinde
+
 
 
 ----------------------------------------------------------------------------------
